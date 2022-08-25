@@ -1,0 +1,145 @@
+.questions {
+    background-color: #181818;
+}
+
+.questions-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 52px;
+}
+
+.questions-form .form {
+    width: 883px;
+    height: 445px; 
+    margin-top: -223px; 
+    background-color: #181818;
+    z-index: 2;
+}
+
+.questions-form .subtitle {
+    padding-top: 34px;
+    padding-bottom: 46px;
+}
+
+.questions-form .form-input-button {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 181px;
+}
+.questions-form .form-input-data {
+    display: flex;
+    flex-direction: column;
+    padding: 0 58px 49px 0;
+    width: 517px;
+}
+
+
+.questions-form .form-input-data .input {
+    background-color: #181818;
+}
+
+.form-data-flex {
+    display: flex;
+    flex-direction: row ;
+}
+
+.questions .form-button-data {
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.questions-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 589px;
+    margin-bottom: 26px;
+}
+
+.questions-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 43px;
+}
+.questions-icon-message {
+    padding-right: 15px;
+}
+
+.questions-maps {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 66px;
+}
+
+@media (max-width: 768px) {
+.questions {
+    margin-top: -29%;
+    }
+
+.questions-form {
+    justify-content: space-around;    
+    margin-bottom: 0;
+}
+
+.questions-form .form {
+    margin-top: 31%;
+    width: inherit;
+    height: inherit;
+}   
+
+.form-data-flex {
+    flex-direction: column;
+}
+
+.questions-form .form-input-button {
+    padding: 0;
+}
+
+.questions-form .form-input-data {
+    width: inherit;
+}
+
+.realize-fantasies-heading {
+    display: contents;
+}
+
+.realize-fantasies-title  {
+    max-width: 60%;
+}
+
+.questions .form-button-data {
+    padding: 0 15px;
+}
+
+.questions-subtitle-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.questions-maps {
+    order: -1;
+    padding-bottom: 42px;
+}
+
+.questions-subtitle {
+    margin-bottom: 23px;
+    min-width: 92%;
+}
+}
+
+@media (max-width: 600px) {
+
+    .form-data {
+        padding: 0 15px;
+    }
+
+    .questions-subtitle {
+        width: inherit;
+    }
+
+    .btn, a.btn .btn-big {
+        width: 325px;
+    }
+
+}

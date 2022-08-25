@@ -1,0 +1,74 @@
+.btn, a.btn {
+    display: inline-block;
+    background-color:#E3B873;
+    height: 37px;
+    margin-right: 20px;
+    padding-left: 33px;
+    padding-right: 33px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    transition: opacity 0.2s ease;
+}
+
+
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-big, a.btn-big {
+    min-height: 51px;
+    min-width: 217px;
+}
+
+.btn-opasity {
+    background-color: rgba(28,28,28,0);
+    box-shadow: none;
+    border: 1px solid #FFFFFF;
+}
+
+.input {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  }
+
+  .input::placeholder {
+    color: #363636;
+  }
+
+  .title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.subtitle {
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.head-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 31px;
+    margin-top: 13px;
+}
+
+.logo {
+     margin-right: 8px;
+}

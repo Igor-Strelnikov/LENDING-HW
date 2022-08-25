@@ -1,0 +1,235 @@
+.types-of-repair {
+    margin-bottom: 230px;
+}
+
+.types-of-repair-prices {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 392px);
+    column-gap: 30px;
+    justify-content: center;
+    margin-bottom: 161px;
+}
+
+.black {
+    color: #181818;
+}
+
+.types-of-repair-subtitle {
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin-bottom: 13px;
+}
+
+.types-of-repair-prices-description {
+    max-width: 334px;
+    max-height: 314px;
+    padding: 59px 33px 77px 34px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    position: relative;
+    top: -127px;
+    right: -31px;
+}
+
+.types-of-repair-description ul {
+    padding-left: 15px;
+    list-style: disc;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    padding-bottom: 23px;
+}
+
+
+.types-of-repair-button {
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.types-of-repair-request-measurer {
+    display: flex;
+}
+.types-of-repair-request-measurer-consultation {
+    width: 649px;
+    height: 587px;
+    margin-top: -135px;
+    margin-right: 193px;
+}
+.types-of-repair-request-measurer-bg {
+    position: absolute;
+    background-size: cover;
+    max-height: 645px;
+}
+
+.types-of-repair-request-measurer-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 123px;
+    left: 248px;
+    margin-bottom: 74px;
+}
+
+.types-of-repair-request-measurer-advantage {
+    display: flex;
+    position: relative;
+}
+.types-of-repair-request-measurer-number {
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    padding: 11px 13px;
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.types-of-repair-request-measurer-text {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 320px;
+    margin-left: 80px;
+    color: #363636;
+}
+
+.form {
+    width: 506px;
+    height: 509px;
+    display: flex;
+    flex-direction: column;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    color: #FFFFFF;
+}
+
+.form-input-data .input {
+    color: #FFFFFF;
+}
+
+.form-input-button {
+    display: flex;
+    flex-direction: column;
+    padding: 0 49px;
+}
+
+.types-of-repair-button .btn-big, a.btn-big {
+    min-width: 220px;  
+    padding-left: 21px;
+    padding-right: 21px;  
+}
+
+.form-title {
+    padding: 28px 105px 39px 104px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center; 
+}
+
+.form-input-data .label {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-input-data .input {
+    background: #131313;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    line-height: 23px;
+    width: 100%;
+}
+
+.form-input-data .input::placeholder {
+    color: #FFFFFF;
+}
+
+.form-input-data + .form-input-data {
+    padding-top: 48px;
+}
+
+
+.checkbox-text {
+    color: #FFFFFF;
+}
+
+.types-of-repair-request-measurer .first-checkbox {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 39px;
+}
+
+.form-button-data {
+    display: flex;
+    justify-content: end;
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.types-of-repair-logo-text {
+    position: relative;
+    width: 327px;
+    margin-top: 38px;
+    display: flex;
+    margin-left: 865px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.types-of-repair-logo-text p {
+    position: absolute;
+    top: 40%;
+    transform: translate(0, -50%);
+    left: 115px;
+}
+
+@media (max-width: 768px) {
+    .types-of-repair {
+        margin-top: 58px;
+        margin-bottom: 55px;
+    }
+
+    .types-of-repair-prices {
+        margin-bottom: 0;
+        max-height: 2075px;
+    }
+
+    .types-of-repair-prices-description {
+        max-height: 299px;
+        right: 0;
+        padding: 21px 33px 77px 34px;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05)
+    }
+
+    .head-logo {
+        margin-bottom: 40px;
+        margin-top: 17px;
+    }
+
+    .types-of-repair-button .btn, a.btn .btn-big {
+        width: inherit;
+        padding: 0;
+        margin: 0;
+    }
+
+    .types-of-repair-request-measurer {
+        display: none;
+    }
+
+    .types-of-repair-logo-text {
+        display: none;
+    }
+
+}
+
+

@@ -1,0 +1,106 @@
+.home {
+    position: relative;
+    min-height: 707px;
+    padding: 194px 0;
+}
+
+.home-overlay {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.home-content {
+    max-width: 515px;
+}
+
+.home-heading {
+    margin-bottom: 19px;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.home-text {
+    font-size: 22px;
+    line-height: 163.7%;
+    color: #FFFFFF;
+}
+
+
+.home-btn {
+    margin-top: 41px;
+    font-size: 11px;
+}
+
+.home-bg-img {
+    z-index: -2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-bg-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+
+.home {
+    justify-content: center;
+    min-height: unset;
+    padding: 85px 0;
+    }
+
+.home-content {
+    width: min-content;
+}
+
+.home .container {
+    display: flex;
+    justify-content: center;
+}
+
+.home-heading {
+    margin-bottom: 19px;
+    font-size: 23px;
+    line-height: 132.83%;
+    }
+
+.home-text {
+    font-size: 14px;
+    line-height: 135.84%;
+    }
+
+.home-btn {
+    margin-top: 32px;
+    }
+
+.btn-big, a.btn-big {
+    margin-bottom: 26px;
+    }
+.home-text {
+    width: 321px;
+    }    
+    
+.home-heading {
+    max-width: 339px;
+    }   
+    
+.btn, a.btn .btn-big {
+    width: 339px;
+    }    
+}
+

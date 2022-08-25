@@ -1,0 +1,148 @@
+.realize-fantasies {
+    position: relative;
+    margin-bottom: 110px;
+}
+
+.realize-fantasies .container {
+    max-height: 864px;
+}
+
+.realize-fantasies-content {
+    display: flex;
+}
+
+.realize-fantasies-heading {
+    margin-right: 66px;
+}
+
+.realize-fantasies-title {
+    width: 365px;
+    margin-top: 137px;
+    margin-bottom: 47px;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+}
+
+.realize-fantasies-list {
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.realize-fantasies-list li {
+    margin-bottom: 10px;
+}
+
+.realize-fantasies-list a {
+    transition: color 0.2s ease;
+}
+
+.realize-fantasies-list a:hover {
+    color: #E3B873;
+}
+
+.realize-fantasies-img {
+    display: flex;
+}
+
+.realize-fantasies-img-column1 {
+    margin-right: 43px;
+}
+
+.realize-fantasies-img-wrapper1 {
+    margin-top: -41px;
+    margin-bottom: 41px;
+}
+
+.realize-fantasies-img-wrapper3 {
+    margin-top: -112px;
+    margin-bottom: 37px;
+}
+
+.realize-fantasies-bg-img {
+    z-index: -2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.realize-fantasies-img-mobile-next {
+    display: none;
+}
+.realize-fantasies-img-mobile-back {
+    display: none;
+}
+
+.realize-fantasies-overlay {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+
+@media (max-width: 768px) {
+
+    .realize-fantasies {
+        margin: 0;
+    }
+
+    .realize-fantasies-heading {
+        margin: 0;
+    }
+
+    .realize-fantasies-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .realize-fantasies-bg-img {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 17px;
+        z-index: 3;
+    }
+
+    .realize-fantasies-mobile-img {
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+
+    }
+
+    .realize-fantasies-img-mobile-back {
+        display: flex;
+        position: absolute;
+        left: 0;
+    }
+    .realize-fantasies-img-mobile-next {
+        display: flex;
+        position: absolute;
+        right: 0;
+    }
+    .realize-fantasies-list {
+        display: none;
+    }
+
+    .realize-fantasies-img {
+        display: none;      
+    }
+
+    .realize-fantasies-overlay {
+        display: none;
+    }
+
+    .realize-fantasies-title {
+        margin: 0;
+        margin-bottom: 24px;
+    }
+}

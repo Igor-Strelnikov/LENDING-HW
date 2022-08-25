@@ -1,0 +1,12 @@
+.footer {
+padding-top: 62px;
+padding-bottom: 61px;
+background-color: #181818;
+color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        display: none;
+    }
+}

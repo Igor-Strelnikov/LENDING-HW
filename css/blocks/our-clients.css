@@ -1,0 +1,122 @@
+.our-clients {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.our-clients-subtitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 63px;
+}
+.our-clients-subtitle .subtitle {
+    margin-bottom: 13px;
+}
+
+.our-clients-subtitle .head-logo {
+    margin-bottom: 24px;
+}
+
+.our-clients-text {
+    width: 400px;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.our-clients-clients {
+    display: flex;
+    justify-content: space-between;
+}
+.our-clients-comment {
+    width: 376px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+.our-clients-comment-head {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.our-clients-comment-img {
+    border-radius: 50%;
+    position: relative;
+
+}
+.our-clients-comment-head-text {
+    position: absolute;
+    top: 40%;
+    transform: translate(0, -40%);
+    left: 100px;
+    width: 145px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+}
+.our-clients-comment-text {
+    width: 324px;
+    margin-bottom: 63px;
+    font-size: 13px;
+    line-height: 180%;
+    /* or 23px */
+    color: #959595;
+}
+
+.our-clients-comment-m2-days-logo h3:nth-child(2) {
+    padding-right: 15px;
+}
+
+.our-clients-comment-m2-days-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 293px;
+    height: 54px;
+}
+
+.our-clients-vertical-line {
+    border-left: 1px solid #FFFFFF;
+    height: 100%;
+    margin-right: 6%;
+}
+
+.our-clients-comment-m2-days-logo img {
+    padding-right: 15px;
+}
+
+
+.our-clients-comment-m2-days {
+    background-color: #E3B873;
+    width: 293px;
+    height: 54px;
+}
+
+.our-clients-comment-m2-days-text {
+    font-family: 'Yeseva One';
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+}   
+
+.our-clients-bg {
+    display: flex;
+    opacity: 10%;
+    justify-content: space-between;
+    width: auto;
+    
+}
+
+.our-clients-bg-right {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@media (max-width: 768px) {
+    .our-clients {
+        display: none;
+}
+}
